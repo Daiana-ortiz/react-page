@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Project_invest__3H6lj {
+  grid-area: top-invest;
+  
+}
+
+.General_default_paper__2LsAt {
+  margin: 0 0px 0px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 16px 0 rgb(0 0 0 / 50%);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  
+}
+
+
+h1 .General_default_paper_title__3CDbu {
+  font-weight: 700!important;
+  font-size: 20px!important;
+  line-height: 170%!important;
+  margin: 8px 0 16px!important;
+  color: #304060!important;
+}
+
+.General_default_paper_content__3q7XG {
+  fill: #fff;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 300;
+  word-break: break-word;
+  text-align: left;
+  padding-top: 50px;
+}
+
+
+.General_default_paper_primary__1cr0R {
+  background-color: #304060;
+  color: #fff!important;
+  height: 80vh;
+}
+
+.Project_InvestmentDetails_grid__2RWLc {
+  align-items: center;
+}
+
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.Project_CircularProgress_gridItem__yL6na {
+  position: relative;
+  width: 100%;
+  text-align: center!important;
+  height: 120px;
+}
+
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.Project_CircularProgress_gridItem__yL6na .Project_projectStepTopChart__t1k6G {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+}
+
+.Project_circleBg__1k6VD {
+  fill: none;
+  stroke: rgba(46,143,250,.15);
+  stroke-width: 2.8;
+}
+
+.Project_projectStepTopChartCompleted__2GETH .Project_chartCircle__1FuG- {
+  stroke: #51c47c!important;
+}
+
+.Project_projectStepTopChartCompleted__2GETH .Project_chartPercentage__fopv5 {
+  fill: #51c47c!important;
+}
+
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Project_projectInvestmentDetailsItem__1zjeJ {
+  text-align: center;
+  padding: 16px 0;
+}
+
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+
+.General_LabelPaper_content__2ZMNh {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.General_LabelPaper_label__3Zehv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.33333px 0;
+  max-height: 24px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
