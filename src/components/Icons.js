@@ -14,7 +14,6 @@ const styles = {
     },
     a: {
         textDecoration: 'none',
-        display: 'inline-block',
         height: '32px',
         borderRadius: '50%',
         width: '32px',

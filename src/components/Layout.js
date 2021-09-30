@@ -1,23 +1,22 @@
-import { Component} from 'react'
+import { Component } from 'react'
 
 const styles = {
     layout: {
         padding: '8px 0 ',
-        margin: '0 auto' ,
-        
+        margin: '0 auto',
     },
     container: {
         width: '1200px',
         paddingTop: '20px',
         margin: '0 auto',
     }
-  }
+}
 
 
 class Layout extends Component {
     render() {
         return (
-            <div style={styles.layout}>
+            <div style={{ padding: "8px 0px", margin: "0 auto" }}>
                 <div style={styles.container}>
                     {this.props.children}
                 </div>

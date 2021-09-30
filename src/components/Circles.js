@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import styled from 'styled-components'
 
 const styles = {
     circles: {
@@ -14,8 +15,6 @@ const styles = {
     },
     li1 : {
         backgroundColor: '#2e8ffa',
-        transition: 'all .25s ease-in-out',
-        transform: 'scale3d(1.1,1.1,1.1)',
         listStyle: 'none',
         padding: '0',
         width: '16px',
@@ -30,8 +29,6 @@ const styles = {
     
     },
     li : {
-        transition: 'all .25s ease-in-out',
-        transform: 'scale3d(1.1,1.1,1.1)',
         listStyle: 'none',
         padding: '0',
         width: '16px',
@@ -46,17 +43,33 @@ const styles = {
     }
 }
 
+export const DotListItem = styled.li`
+        list-style: none;
+        padding: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin: 0 4px;
+        background-color: #002544;
+        transition: all .25s ease-in-out;
+        transform: scaleX(1);
+        box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+        cursor: pointer;
+        &:hover {
+            background-color: #92c4fc;
+        }
+`;
+
+const Heading = styled.h1`
+    color: red;
+`
+
 class Circles extends Component {
     render() {
         return (
             <ul style={styles.circles}>
-                <li style={styles.li1}></li>
-                <li style={styles.li}></li>
-                <li style={styles.li}></li>
-                <li style={styles.li}></li>
-                <li style={styles.li}></li>
-                <li style={styles.li}></li>
-                <li style={styles.li}></li>
+                <Heading> HELLO </Heading>
+                <DotListItem/>
             </ul>
         )
     }
