@@ -1,22 +1,21 @@
 import { Component } from 'react'
+import styled from 'styled-components'
 
-const styles = {
-    title: {
-        padding: '8px 0 ',
-        margin: '0 auto' ,
-        maxWidth: '768px',
-        color: '#304060',
-        fontSize: '43.2px',
-        fontWeight: '700',
-        lineHeight: '125%',
-        textAlign: 'center'
-    }
-  }
+export const H1 = styled.h1`
+        padding: 8px 0 ;
+        margin: 0 auto ;
+        max-width: 768px;
+        color: #304060;
+        font-size: 43.2px;
+        font-weight: 700;
+        line-height: 125%;
+        text-align: center;
+        `
 
 class Title extends Component {
   render() {
     return (
-      <h1 style={styles.title}>1 liebhavervilla ved Odense</h1>
+      <H1>1 liebhavervilla ved Odense</H1>
     )
   }
 }

@@ -19,7 +19,7 @@ const styles = {
         width: '25%',
         position: 'absolute',
         left: '67%',
-        top: '64%'
+        
     },
     imagen : {
         width: '75%',

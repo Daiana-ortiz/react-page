@@ -16,7 +16,7 @@ const styles = {
 class Layout extends Component {
     render() {
         return (
-            <div style={{ padding: "8px 0px", margin: "0 auto" }}>
+            <div style={styles.layout}>
                 <div style={styles.container}>
                     {this.props.children}
                 </div>

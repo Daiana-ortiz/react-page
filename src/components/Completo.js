@@ -1,33 +1,36 @@
 import { Component } from 'react'
+import styled from 'styled-components'
 
-const styles = {
-    completo: {
-        transform: 'rotate(-15deg) scale(1.25)',
-        display: 'inline-block',
-        position: 'absolute',
-        backgroundColor: 'rgba(81,196,124,.85)',
-        color: '#fff',
-        fontWeight: '700',
-        fontSize: '1.5em',
-        textTransform: 'uppercase',
-        textAlign: 'center',
-        padding: '8px',
-        height: '42px',
-        width: '300px',
-        top: '50%',
-        left: '40%',
-        marginTop: '-21px',
-        marginLeft: '-150px'
-        
-    }
-
-}
+export const GreenRectangule = styled.div`
+        transform: rotate(-15deg) scale(1.25);
+        display: inline-block;
+        position: absolute;
+        background-color: rgba(81,196,124,.85);
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-tlign: center;
+        padding: 8px;
+        height: 42px;
+        width: 300px;
+        top: 50%;
+        left: 40%;
+        margin-top: -21px;
+        margin-left: -150px;
+        &:first-child {
+            color: #fff;
+            text-align: center;
+        }
+        `
 
 class Completo extends Component {
     render() {
         return (
-            <div style={styles.completo}>
-                <span>Fuldtegnet</span>
+            <div>
+                <GreenRectangule>
+                    <span>Fuldtegnet</span>
+                </GreenRectangule>
             </div>
         )
     }
