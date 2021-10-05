@@ -9,7 +9,7 @@ const styles = {
         display: 'flex',
         height: '32px',
         alignItems: 'center',
-        width: '80%',
+        width: '100%',
         justifyContent: 'center' 
     }
 }

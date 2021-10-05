@@ -136,3 +136,12 @@ h1 .General_default_paper_title__3CDbu {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+
+.Project_investmentDetailsPaper__2yHvU {
+  box-shadow: 0 0 16px rgb(0 0 0 / 50%);
+  margin-top: -16px;
+  margin-left: -8px;
+  z-index: 1;
+  height: calc(100% - 16px);
+}

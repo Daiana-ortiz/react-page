@@ -11,18 +11,15 @@ const styles = {
         
     },
     container : {
-        width: '75%',
-        position: 'absolute'
-        
+        width: '100%', 
     }, 
     info : {
-        width: '25%',
-        position: 'absolute',
-        left: '67%',
+        width: '35%',
+        position: 'relative'
         
     },
     imagen : {
-        width: '75%',
+        width: '100%',
         height: 'auto',
         top: '0',
         left: '0',
@@ -36,14 +33,16 @@ class Project extends Component {
         <div style={styles.project}>
             <div style={styles.container}>
                 <div>
-                    <img style={styles.imagen} alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/>
+                    <div style={{ position: 'relative'}}>
+                        <img style={styles.imagen} alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
+                    <Completo/>
+                    </div>
+                    
                 </div>
                 <div>
                     <Circles/>
                 </div>
-                <div>
-                    <Completo/>
-                </div>
+                
             </div>
             <div style={styles.info}>
                 <Info/>

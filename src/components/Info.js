@@ -7,7 +7,7 @@ const styles = {
         marginTop: '-16px',
         marginLeft: '-8px',
         zIndex: '1',
-        height: '550px' ,
+        height: 'auto' ,
         backgroundColor: '#304060',
         color: '#fff',
         padding: '16px',
