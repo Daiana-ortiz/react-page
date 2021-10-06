@@ -2,47 +2,54 @@ import { Component } from 'react'
 import Circles from '../components/Circles.js'
 import Completo from '../components/Completo.js'
 import Info from '../components/Info.js'
+import styled from 'styled-components'
+
+export const Wrapper = styled.div`
+        width: 1200px;
+        display: flex;
+        margin: 0;
+        `
+
+export const Box = styled.div`
+        height: 530px;
+        width: 50%;
+        `
+
+export const Img = styled.img`
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: relative;
+        height: 400px;
+        margin-botton: 32px;
+    `
+
+export const ImgContainer = styled.div`
+        position: relative; 
+        height: 430px; 
+        width: 100%;
+`
 
 
-const styles = {
-
-    wrapper : {
-        width: '1200px', 
-        display: 'flex',
-        margin: '0'
-
-    }, 
-    info : {
-        height: '530px',
-        width: '50%'
-        
-    },
-    imagen : {
-        width: '100%',
-        top: '0',
-        left: '0',
-        position: 'relative',
-        height: '400px',
-        marginBotton: '32px'
-    }
-  }
 
 class Project extends Component {
   render() {
     return (
-            <div style={styles.wrapper}>
+            <Wrapper>
+                
                 <div style={{ width: '100%'}}>
-                    <div style={{ position: 'relative', height: '430px', width: '100%'}}>
-                        <img style={styles.imagen} alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
+                    <ImgContainer>
+                        <Img alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
                         <Circles/>
-                    <Completo/>
-                    </div>
+                        <Completo/>
+                    </ImgContainer>
                 </div>
                 
-                <div style={styles.info}>
+                <Box>
                     <Info/>
-                </div>
-            </div>
+                </Box>
+
+            </Wrapper>
     )
   }
 }

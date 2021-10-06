@@ -1,7 +1,8 @@
 import { Component } from 'react'
 import '../index.css'
 
-const styles = {
+
+ export const styles = {
     info: {
         boxShadow: '0 0 16px rgb(0 0 0 / 50%)',
         marginTop: '-16px',
@@ -49,12 +50,12 @@ class Info extends Component {
                 <div style={styles.content} >
                 <div >
                     <div style={styles.grid}>
-                    <div class="MuiGrid-root Project_CircularProgress_gridItem__yL6na MuiGrid-item MuiGrid-grid-xs-12">
-                    <div class="Project_projectStepTopChart__t1k6G undefined Project_projectStepTopChartCompleted__2GETH">
+                    <div className="MuiGrid-root Project_CircularProgress_gridItem__yL6na MuiGrid-item MuiGrid-grid-xs-12">
+                    <div className="Project_projectStepTopChart__t1k6G undefined Project_projectStepTopChartCompleted__2GETH">
                         <svg viewBox="0 0 36 36">
-                            <path class="Project_circleBg__1k6VD" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-                            <path class="Project_chartCircle__1FuG-" stroke-dasharray="103, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
-                                <svg class="MuiSvgIcon-root Project_chartPercentage__fopv5" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                            <path className="Project_circleBg__1k6VD" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                            <path className="Project_chartCircle__1FuG-" strokeDasharray="103, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"></path>
+                                <svg className="MuiSvgIcon-root Project_chartPercentage__fopv5" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                                     <g>
                                         <path d="M0 0h24v24H0z" fill="none"></path>
                                         <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path>
@@ -63,50 +64,50 @@ class Info extends Component {
                         </svg>
                     </div>
                     </div>
-                <div class="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
-                    <div class="General_LabelPaper_content__2ZMNh ">
+                <div className="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
+                    <div className="General_LabelPaper_content__2ZMNh ">
                         <span>1.660.000 DKK</span>
                     </div>
-                    <div class="General_LabelPaper_label__3Zehv ">
+                    <div className="General_LabelPaper_label__3Zehv ">
                         <span>Rejst beløb</span>
                     </div>
                 </div>
-                    <div class="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
-                        <div class="General_LabelPaper_content__2ZMNh ">
+                    <div className="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
+                        <div className="General_LabelPaper_content__2ZMNh ">
                             <span>1.600.000 DKK</span>
                         </div>
-                        <div class="General_LabelPaper_label__3Zehv ">
+                        <div className="General_LabelPaper_label__3Zehv ">
                             <span>Projektstørrelse</span>
                         </div>
                     </div>
-                    <div class="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
-                        <div class="General_LabelPaper_content__2ZMNh ">10.00%</div>
-                            <div class="General_LabelPaper_label__3Zehv ">
+                    <div className="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
+                        <div className="General_LabelPaper_content__2ZMNh ">10.00%</div>
+                            <div className="General_LabelPaper_label__3Zehv ">
                                 <span>Investorrente p.a.</span>
                             </div>
                         </div>
-                            <div class="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
-                                <div class="General_LabelPaper_content__2ZMNh ">
+                            <div className="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
+                                <div className="General_LabelPaper_content__2ZMNh ">
                                 <span>10.000 DKK</span>
                             </div>
-                            <div class="General_LabelPaper_label__3Zehv ">
+                            <div className="General_LabelPaper_label__3Zehv ">
                                 <span>Min.indskud</span>
                             </div>
                     </div>
-                        <div class="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
-                            <div class="General_LabelPaper_content__2ZMNh ">10 - 12 mdr.</div>
-                                <div class="General_LabelPaper_label__3Zehv ">
+                        <div className="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
+                            <div className="General_LabelPaper_content__2ZMNh ">10 - 12 mdr.</div>
+                                <div className="General_LabelPaper_label__3Zehv ">
                                     <span>Projektperiode</span>
                                 </div>
                             </div>
                         
-                            <div class="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
-                                <div class="General_LabelPaper_content__2ZMNh ">88.00%</div>
-                                    <div class="General_LabelPaper_label__3Zehv ">
+                            <div className="MuiGrid-root Project_projectInvestmentDetailsItem__1zjeJ MuiGrid-item MuiGrid-grid-xs-6">
+                                <div className="General_LabelPaper_content__2ZMNh ">88.00%</div>
+                                    <div className="General_LabelPaper_label__3Zehv ">
                                         <span>Overdækning</span>
-                                        <span class="MuiButtonBase-root MuiButton-root General_helpIconLink__1opYV MuiButton-text" tabindex="0" role="button" aria-disabled="false" aria-label="overdækning indikerer hvor meget mere projektet er værd, når det er blevet realiseret. En høj overdækning er tegn på et solidt projekt og beregnes som det forventede provenu divideret med de samlede bygge- og salgssomkostninger.">
-                                        <span class="MuiButton-label">
-                                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                        <span className="MuiButtonBase-root MuiButton-root General_helpIconLink__1opYV MuiButton-text" tabIndex="0" role="button" aria-disabled="false" aria-label="overdækning indikerer hvor meget mere projektet er værd, når det er blevet realiseret. En høj overdækning er tegn på et solidt projekt og beregnes som det forventede provenu divideret med de samlede bygge- og salgssomkostninger.">
+                                        <span className="MuiButton-label">
+                                            <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                                                 <g>
                                                 <path fill="none" d="M0 0h24v24H0V0z"></path>
                                                 <path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
@@ -116,7 +117,7 @@ class Info extends Component {
                                         </span>
                                     </div>
                                 </div>
-                                <div class="MuiGrid-root General_textAlignCenter__3J3PU MuiGrid-item MuiGrid-grid-xs-12"></div>
+                                <div className="MuiGrid-root General_textAlignCenter__3J3PU MuiGrid-item MuiGrid-grid-xs-12"></div>
                             </div>
                         </div>
                     </div>

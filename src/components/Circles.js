@@ -1,18 +1,16 @@
 import { Component } from 'react'
 import styled from 'styled-components'
 
-const styles = {
-    circles: {
-        listStyle: 'none',
-        margin: '0',
-        padding: '0',
-        display: 'flex',
-        height: '32px',
-        alignItems: 'center',
-        width: '100%',
-        justifyContent: 'center' 
-    }
-}
+export const List = styled.ul`
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 32px;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    `
 
 export const DotListItem = styled.li`
         list-style: none;
@@ -34,14 +32,14 @@ export const DotListItem = styled.li`
 class Circles extends Component {
     render() {
         return (
-            <ul style={styles.circles}>
+            <List>
                 <DotListItem/>
                 <DotListItem/>
                 <DotListItem/>
                 <DotListItem/>
                 <DotListItem/>
                 <DotListItem/>
-            </ul>
+            </List>
         )
     }
 }

@@ -1,30 +1,28 @@
 import { Component } from 'react'
+import styled from 'styled-components'
 
-const styles = {
-    layout: {
-        padding: '8px 0 ',
-        margin: '0 auto',
-        width: '1200px',
+export const MainContainer = styled.div` = 
+        padding: 8px 0 ;
+        margin: 0 auto;
+        width: 1200px;
+        `
 
-    },
-    container: {
-        paddingTop: '20px',
-        margin: '0 auto',
-    }
-}
-
+export const Container = styled.div` = 
+        padding-top: 20px;
+        margin: 0 auto;
+    
+    `
 
 class Layout extends Component {
     render() {
         return (
-            <div style={styles.layout}>
-                <div style={styles.container}>
+            <MainContainer>
+                <Container>
                     {this.props.children}
-                </div>
-            </div>
+                </Container>
+            </MainContainer>
         )
     }
 }
-
 
 export default Layout
