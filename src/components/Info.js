@@ -7,21 +7,21 @@ const styles = {
         marginTop: '-16px',
         marginLeft: '-8px',
         zIndex: '1',
-        height: 'auto' ,
         backgroundColor: '#304060',
         color: '#fff',
         padding: '16px',
         borderRadius: '4px',
-        position: 'relative'
+        position: 'relative',
+        width: '90%'
         
     },
 
     title: {
         color: '#fff',
-        fontWeight: '700!important',
-        fontSize: '20px!important',
-        lineHeight: '170%!important',
-        margin: '8px 0 16px!important'
+        fontWeight: '700!',
+        fontSize: '20px',
+        lineHeight: '170%',
+        margin: '8px 0 16px'
     },
     content: {
         fontSize: '16px',
@@ -43,7 +43,7 @@ const styles = {
 class Info extends Component {
   render() {
     return (
-        <div>
+        
         <div style={styles.info}>
             <h1 style={styles.title}>En god forrentning</h1>
                 <div style={styles.content} >
@@ -121,7 +121,7 @@ class Info extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            
     )
   }
 }

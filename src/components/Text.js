@@ -18,6 +18,7 @@ export const TextStyle = styled.h4`
 class Text extends Component {
   render() {
     return (
+      <div style={{ width: '1000px', margin: '0 auto'}}>
         <TextStyle>
             <p >Grunden, som er på over 3000 m2, er meget smukt beliggende i kanten af  en skov, hvor ege og bøgetræer pryder grunden.</p>
             <p >Grunden er unik, da den er meget højt beliggende, hvilket giver en usædvanlig smuk udsigt mod skove, søer og marker  (så langt øjet rækker).</p>
@@ -26,6 +27,7 @@ class Text extends Component {
             <p >Der er adskillige afgange med bus til Odense dagligt.</p>
             <p >Vi har nu rejst kapital til denne udvikler 2 gange (Stjær og Thorsager) og derfor hjælper vi udvikler med, at bygge sit eget drømmehus. Så vi er 110% trygge ved, at lægge sagen på Fundbricks.com. </p>
         </TextStyle>
+      </div>
     )
   }
 }

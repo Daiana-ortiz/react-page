@@ -4,9 +4,10 @@ const styles = {
     layout: {
         padding: '8px 0 ',
         margin: '0 auto',
+        width: '1200px',
+
     },
     container: {
-        width: '1200px',
         paddingTop: '20px',
         margin: '0 auto',
     }

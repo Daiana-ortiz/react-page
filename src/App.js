@@ -13,9 +13,11 @@ class App extends Component {
         <Layout>
           <Title/>
           <Subtitle/>
-          <Text/>
+          <Text/> 
           <Project/>
         </Layout>
+        
+        
       </div>
     )
   }

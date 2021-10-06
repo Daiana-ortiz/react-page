@@ -5,49 +5,44 @@ import Info from '../components/Info.js'
 
 
 const styles = {
-    project: {
+
+    wrapper : {
+        width: '1200px', 
         display: 'flex',
-        justifyContent: 'space-between',
-        
-    },
-    container : {
-        width: '100%', 
+        margin: '0'
+
     }, 
     info : {
-        width: '35%',
-        position: 'relative'
+        height: '530px',
+        width: '50%'
         
     },
     imagen : {
         width: '100%',
-        height: 'auto',
         top: '0',
         left: '0',
-        position: 'relative'
+        position: 'relative',
+        height: '400px',
+        marginBotton: '32px'
     }
   }
 
 class Project extends Component {
   render() {
     return (
-        <div style={styles.project}>
-            <div style={styles.container}>
-                <div>
-                    <div style={{ position: 'relative'}}>
+            <div style={styles.wrapper}>
+                <div style={{ width: '100%'}}>
+                    <div style={{ position: 'relative', height: '500px', width: '100%'}}>
                         <img style={styles.imagen} alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
+                        <Circles/>
                     <Completo/>
                     </div>
-                    
-                </div>
-                <div>
-                    <Circles/>
                 </div>
                 
+                <div style={styles.info}>
+                    <Info/>
+                </div>
             </div>
-            <div style={styles.info}>
-                <Info/>
-            </div>
-        </div>
     )
   }
 }
