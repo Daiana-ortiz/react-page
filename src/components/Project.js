@@ -32,7 +32,7 @@ class Project extends Component {
     return (
             <div style={styles.wrapper}>
                 <div style={{ width: '100%'}}>
-                    <div style={{ position: 'relative', height: '500px', width: '100%'}}>
+                    <div style={{ position: 'relative', height: '430px', width: '100%'}}>
                         <img style={styles.imagen} alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
                         <Circles/>
                     <Completo/>
