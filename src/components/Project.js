@@ -13,6 +13,12 @@ export const Wrapper = styled.div`
 export const Box = styled.div`
         height: 530px;
         width: 50%;
+        color: #333;
+        font-size: 16px;
+        line-height: 170%;
+        font-weight: 300;
+        word-break: break-word;
+        text-align: left;
         `
 
 export const Img = styled.img`
