@@ -15,7 +15,7 @@ export const H1 = styled.h1`
 class Title extends Component {
   render() {
     return (
-      <H1>1 liebhavervilla ved Odense</H1>
+      <H1>{this.props.title}</H1>
     )
   }
 }

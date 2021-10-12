@@ -13,7 +13,7 @@ export const ContentStyle = styled.div`
 class Grid extends Component {
     render () {
         return (
-            <Grid>{this.props.children}</Grid>
+            <ContentStyle>{this.props.children}</ContentStyle>
         )
     }
 }

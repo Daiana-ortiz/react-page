@@ -9,6 +9,8 @@ import ProjectDetails from './ProjectDetails'
 import Detail from './Detail'
 import HelpIcon from './HelpIcon'
 import MuiGrid from './MuiGrid'
+import Detail2 from './Detail2'
+
 
 export const BoxContainer = styled.div`
     box-shadow: 0 0 16px rgb(0 0 0 / 50%);
@@ -31,56 +33,41 @@ class Info extends Component {
 <BoxContainer>
     <ProjectTitle title='En god forrentning'/>
         <Content>
-            <div style={{ color: '#fff!important'}}>
                 <Grid>
                     <CircularProgress/> 
                     <ProjectDetails>
-                        <div style={{ fontWeight: '300', fontSize: '16px', lineHeight: '16px'}}>
                             <Detail span='1.660.000 DKK' />
-                            <Detail span='Rejst beløb' />
-                        </div>
+                            <Detail2 span='Rejst beløb'/> 
                     </ProjectDetails>
 
                     <ProjectDetails>
-                        <div style={{ fontWeight: '300', fontSize: '16px', lineHeight: '16px'}}>
                             <Detail span='1.600.000 DKK' />
-                            <Detail span='Projektstørrelse' />
-                        </div>
+                            <Detail2 span='Projektstørrelse' />
                     </ProjectDetails>
 
-                    <ProjectDetails>
-                        <div style={{ fontWeight: '300', fontSize: '16px', lineHeight: '16px'}}>
+                    <ProjectDetails>                     
                             <Detail span='10.00%' />
-                            <Detail span='Investorrente p.a.' />
-                        </div>
+                            <Detail2 span='Investorrente p.a.' />                    
                     </ProjectDetails>
 
-                    <ProjectDetails>
-                        <div style={{ fontWeight: '300', fontSize: '16px', lineHeight: '16px'}}>
+                    <ProjectDetails>                      
                             <Detail span='10.000 DKK' />
-                            <Detail span='Min.indskud' />
-                        </div>
+                            <Detail2 span='Min.indskud' />                       
                     </ProjectDetails>
                     
-                    <ProjectDetails>
-                        <div style={{ fontWeight: '300', fontSize: '16px', lineHeight: '16px'}}>
+                    <ProjectDetails>                      
                             <Detail span='10 - 12 mdr.' />
-                            <Detail span='Projektperiode' />
-                        </div>
+                            <Detail2 span='Projektperiode' />                     
                     </ProjectDetails>
                     
                     <ProjectDetails>
-                        <div style={{ fontWeight: '300', fontSize: '16px', lineHeight: '16px'}}>
                             <Detail span='88.00%' />
-                            <Detail span='Overdækning' />
+                            <Detail2 span='Overdækning' />
                             <HelpIcon/>
-                        </div>
                     </ProjectDetails>
                     
-                    <MuiGrid></MuiGrid>
-                        
+                    <MuiGrid></MuiGrid> 
                 </Grid>
-            </div>
         </Content>
 </BoxContainer>
     )

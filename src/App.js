@@ -9,16 +9,15 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      
         <Layout>
-          <Title/>
+          <Title title='1 liebhavervilla ved Odense'/>
           <Subtitle/>
           <Text/> 
           <Project/>
         </Layout>
         
         
-      </div>
     )
   }
 }

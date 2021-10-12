@@ -31,9 +31,9 @@ class Subtitle extends Component {
   render() {
     return (
         <Subtitle1>
-        <span>Byggefinansiering - Fundingmål nået</span>
-        <Span>Del via
-        <Icons/>
+          <span>Byggefinansiering - Fundingmål nået</span>
+          <Span>Del via
+          <Icons/>
         </Span>
         </Subtitle1>
     )

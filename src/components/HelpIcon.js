@@ -1,34 +1,10 @@
 import { Component } from 'react'
 import styled from 'styled-components'
+import IconI from './IconI'
 
 export const IconStyle = styled.svg`
-color: rgba(0, 0, 0, 0.87);
-padding: 6px 16px;
+color: #fff;
 font-size: 0.8125rem;
-min-width: 64px;
-box-sizing: border-box;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-font-family: Roboto,sans-serif;
-font-weight: 500;
-line-height: 1.75;
-border-radius: 4px;
-text-transform: uppercase;
-border: 0;
-cursor: pointer;
-margin: 0;
-display: inline-flex;
-outline: 0;
-position: relative;
-align-items: center;
-user-select: none;
-vertical-align: middle;
--moz-appearance: none;
-justify-content: center;
-text-decoration: none;
-background-color: transparent;
--webkit-appearance: none;
--webkit-tap-highlight-color: transparent;
-vertical-align: text-top!important;
 width: 16px!important;
 height: 16px!important;
 overflow: hidden!important;
@@ -60,15 +36,13 @@ class HelpIcon extends Component {
     render(){
         return(
             <IconStyle tabIndex="0" role="button" aria-disabled="false" aria-label="overdækning indikerer hvor meget mere projektet er værd, når det er blevet realiseret. En høj overdækning er tegn på et solidt projekt og beregnes som det forventede provenu divideret med de samlede bygge- og salgssomkostninger.">
-                    <MuiBotton >
+                    <MuiBotton>
                         <MuiIconBotton focusable="false" viewBox="0 0 24 24" aria-hidden="true">
-                            <g>
-                                <path fill="none" d="M0 0h24v24H0V0z"></path>
-                                <path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
-                            </g>
+                            <IconI/>
                         </MuiIconBotton>
                     </MuiBotton>
             </IconStyle>
+            
         )
     }
 }

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Box = styled.div`
         height: 530px;
         width: 50%;
-        color: #333;
+        fill: #fff;
         font-size: 16px;
         line-height: 170%;
         font-weight: 300;
@@ -43,13 +43,11 @@ class Project extends Component {
     return (
             <Wrapper>
                 
-                <div style={{ width: '100%'}}>
                     <ImgContainer>
                         <Img alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
                         <Circles/>
                         <Completo/>
                     </ImgContainer>
-                </div>
                 
                 <Box>
                     <Info/>

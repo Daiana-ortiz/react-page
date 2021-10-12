@@ -4,6 +4,11 @@ import Fb from './Fb.js'
 import Linkedin from './Linkedin.js'
 import Mail from './Mail.js'
 
+export const IconsContainer = styled.div`
+        padding-top: 10px;
+`
+
+
 export const IconStyle = styled.svg`
     
         color: #2e8ffa;
@@ -35,7 +40,7 @@ class Icons extends Component {
 
     render()  { 
         return (
-        <div style={{ paddingTop: '10px'}}>
+        <IconsContainer>
             <Link href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.fundbricks.com%2Fprojects%2F1-liebhavervilla-ved-odense%3Futm_source%3Dweb-share-button%26%26utm_medium%3Dfacebook%26utm_campaign%3Dd0be9e4d4247" target="_blank" rel="noopener noreferrer">
                 <IconStyle focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                    <Fb/>
@@ -53,7 +58,7 @@ class Icons extends Component {
                     <Mail/>
                 </IconStyle>
             </Link>
-        </div>
+        </IconsContainer>
 
         )
 }

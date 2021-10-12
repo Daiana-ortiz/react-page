@@ -12,7 +12,7 @@ export const GreenRectangule = styled.div`
         text-transform: uppercase;
         text-align: center;
         padding: 8px;
-        height: 42px;
+        height: 35px;
         width: 300px;
         top: 50%;
         left: 50%;
