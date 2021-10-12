@@ -28,6 +28,8 @@ export const Img = styled.img`
         position: relative;
         height: 400px;
         margin-botton: 32px;
+        border-radius: 5.33333px;
+        box-shadow: 0 1px 16px 0 rgb(0 0 0 / 10%);
     `
 
 export const ImgContainer = styled.div`
