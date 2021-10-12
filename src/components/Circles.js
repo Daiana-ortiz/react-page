@@ -1,6 +1,12 @@
 import { Component } from 'react'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
+
+export const Animation = keyframes`
+50% {
+    transform: scale3d(1.1,1.1,1.1) translate3d(0,-3px,0);
+}
+`
 export const List = styled.ul`
         list-style: none;
         margin: 0;
@@ -10,6 +16,8 @@ export const List = styled.ul`
         align-items: center;
         width: 100%;
         justify-content: center;
+             
+       
     `
 
 export const DotListItem = styled.li`
@@ -27,12 +35,24 @@ export const DotListItem = styled.li`
         &:hover {
             background-color: #92c4fc;
         }
-`;
+
+`
+
+export const ExtendedListItem = styled(DotListItem)`
+        animation: ${Animation} 1.25s cubic-bezier(.175,.885,.32,1.275) infinite;
+        background-color: #2e8ffa;
+        transform: scale3d(1.1,1.1,1.1);
+        &:hover {
+            background-color: #2e8ffa;
+        }
+`
+;
 
 class Circles extends Component {
     render() {
         return (
             <List>
+                <ExtendedListItem/>
                 <DotListItem/>
                 <DotListItem/>
                 <DotListItem/>
