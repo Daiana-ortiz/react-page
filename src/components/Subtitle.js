@@ -14,6 +14,10 @@ export const Subtitle1 = styled.div`
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        &:first-child {
+          color: #fff;
+         }
+
         `
 
 export const Span = styled.span`
@@ -27,14 +31,18 @@ export const Span = styled.span`
         font-weight: 300;
         `
 
+export const LeftSpan = styled.span`
+        font-family: 'Roboto', sans-serif;
+        `
+
 class Subtitle extends Component {
   render() {
     return (
         <Subtitle1>
-          <span>Byggefinansiering - Fundingmål nået</span>
+          <LeftSpan>{this.props.span}</LeftSpan>
           <Span>Del via
-          <Icons/>
-        </Span>
+            <Icons/>
+          </Span>
         </Subtitle1>
     )
   }

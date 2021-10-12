@@ -7,7 +7,7 @@ export const TextStyle = styled.h4`
         line-height: 150%;
         color: #333;
         margin: 25px auto;
-        max-width: 960px;
+        max-width: 870px;
         padding: 0 32px 16px;
         text-align: center;
         &:first-child {
@@ -15,7 +15,7 @@ export const TextStyle = styled.h4`
         }`
 
 export const TextContainer = styled.div`
-        margin: 0 auto;
+        margin: auto;
         width: 1000px;
         `
     

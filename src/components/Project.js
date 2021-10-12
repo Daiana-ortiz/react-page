@@ -45,14 +45,14 @@ class Project extends Component {
     return (
             <Wrapper>
                 
-                    <ImgContainer>
+                <ImgContainer>
                         <Img alt="Project" data-sizes="auto" src="https://res.cloudinary.com/fundbricks/image/upload/v1631281133/nvw7yzxqr1nlpvg4przf.png"/> 
                         <Circles/>
                         <Completo/>
-                    </ImgContainer>
+                </ImgContainer>
                 
                 <Box>
-                    <Info/>
+                        <Info/>
                 </Box>
 
             </Wrapper>

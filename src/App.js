@@ -12,7 +12,7 @@ class App extends Component {
       
         <Layout>
           <Title title='1 liebhavervilla ved Odense'/>
-          <Subtitle/>
+          <Subtitle span='Byggefinansiering - Fundingmål nået'/>
           <Text/> 
           <Project/>
         </Layout>
