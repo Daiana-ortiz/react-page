@@ -18,7 +18,7 @@ export const H1 = styled.h1`
         text-align: center;
         `
 
-class Title extends Component {
+class ProjectTitles extends Component {
   render() {
     return (
       <CenteredContainer>
@@ -29,4 +29,4 @@ class Title extends Component {
   }
 }
 
-export default Title;
+export default ProjectTitles;

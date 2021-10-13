@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import Icons from '../components/Icons.js'
 import styled from 'styled-components'
+import SpanSubtitle from '../components/SpanSubtitle.js'
 
 
 export const Subtitle1 = styled.p`
@@ -18,12 +19,13 @@ export const Subtitle1 = styled.p`
         `
 
 
+
 class Subtitle extends Component {
   render() {
     return (
         <Subtitle1>
-          <span>Byggefinansiering - Fundingmål nået</span>
-            <Icons/>
+          <SpanSubtitle/>
+          <Icons/>
         </Subtitle1>
     )
   }
