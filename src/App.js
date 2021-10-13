@@ -1,6 +1,5 @@
 import { Component } from 'react'
-import Title from './components/Title.js'
-import Subtitle from './components/Subtitle.js'
+import ProjectTitles from './components/ProjectTitles.js'
 import Layout from './components/Layout.js'
 import Text from './components/Text.js'
 import Project from './components/Project.js'
@@ -11,8 +10,7 @@ class App extends Component {
     return (
       
         <Layout>
-          <Title title='1 liebhavervilla ved Odense'/>
-          <Subtitle span='Byggefinansiering - Fundingmål nået'/>
+          <ProjectTitles title='1 liebhavervilla ved Odense'/>
           <Text/> 
           <Project/>
         </Layout>
