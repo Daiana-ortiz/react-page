@@ -28,6 +28,7 @@ left: 0;
 overflow: hidden;
 border-radius: 5.33333px;
 box-shadow: 0 1px 16px 0 rgb(0 0 0 / 10%);
+
 `
 
 

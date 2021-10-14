@@ -10,6 +10,7 @@ export const H1 = styled.h1`
     line-height: 170%;
     margin: 8px 0 16px;
     color: #fff;
+
 `
 
 class ProjectTitle extends Component {

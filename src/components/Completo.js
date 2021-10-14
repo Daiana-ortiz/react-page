@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import styled from 'styled-components'
+import { media } from '../MediaQueries'
 
 export const GreenRectangule = styled.div`
         background-color: rgba(81,196,124,.85);
@@ -18,8 +19,13 @@ export const GreenRectangule = styled.div`
         left: 50%;
         margin-top: -21px;
         margin-left: -150px;
+        box-sizing: border-box;
         &:first-child {
             color: #fff;
+        }
+
+        ${media.mobile} {
+            
         }
         `
 

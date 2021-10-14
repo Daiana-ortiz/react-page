@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Fb from './Fb.js'
 import Linkedin from './Linkedin.js'
 import Mail from './Mail.js'
+import { media } from '../MediaQueries.js'
 
 
 export const Span = styled.span`
@@ -14,6 +15,10 @@ export const Span = styled.span`
         padding-left: 32px;
         color: #666;
         font-weight: 300;
+
+        ${media.mobile} {
+            border-left: none;
+        }
         `
 
 export const Link = styled.a`

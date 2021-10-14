@@ -5,6 +5,18 @@ import Text from './components/Text.js'
 import './App.css';
 import SliderProject from './components/SliderProject.js'
 import Info from './components/Info.js'
+import styled  from 'styled-components';
+import { media } from './MediaQueries.js';
+
+
+
+export const Wrapper = styled.div`
+display: flex;
+
+  ${media.mobile} {
+    display: block;
+  }
+`
 
 class App extends Component {
   render() {
@@ -15,10 +27,10 @@ class App extends Component {
           
           <Text/> 
 
-          <div style={{ display: 'flex'}}> 
+          <Wrapper> 
             <SliderProject/>
             <Info/>
-          </div>
+          </Wrapper>
    
         </Layout>
         

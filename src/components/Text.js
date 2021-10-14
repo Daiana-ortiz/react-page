@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import styled from 'styled-components'
+import { media } from '../MediaQueries'
 
 export const TextStyle = styled.h4`
         font-weight: 300;
@@ -10,9 +11,20 @@ export const TextStyle = styled.h4`
         max-width: 870px;
         padding: 0 32px 16px;
         text-align: center;
+        font-family: "Roboto",sans-serif;
         &:first-child {
          margin: 0 0 1rem;
-        }`
+         
+        }
+        
+        ${media.mobile} {
+          margin-top: 24px;
+          margin-bottom: 8px;
+          text-align: center;
+          padding: 8px 16px;
+        }
+        `
+
 
 class Text extends Component {
   render() {

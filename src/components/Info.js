@@ -10,6 +10,7 @@ import Detail from './Detail'
 import HelpIcon from './HelpIcon'
 import MuiGrid from './MuiGrid'
 import Detail2 from './Detail2'
+import { media } from '../MediaQueries'
 
 
 export const BoxContainer = styled.div`
@@ -23,6 +24,9 @@ export const BoxContainer = styled.div`
     padding: 16px;
     border-radius: 4px;
     position: relative;
+    ${media.mobile} {
+        margin: 0 16px 28px;
+    }
     
 `
 
