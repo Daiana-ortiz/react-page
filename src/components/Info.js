@@ -14,6 +14,8 @@ import { media } from '../MediaQueries'
 
 
 export const BoxContainer = styled.div`
+
+
     box-shadow: 0 0 16px rgb(0 0 0 / 50%);
     margin-top: -16px;
     margin-left: -8px;
@@ -21,20 +23,32 @@ export const BoxContainer = styled.div`
     height: calc(100 % -16px);
     background-color: #304060;
     color: # fff;
-    padding: 16px;
-    border-radius: 4px;
-    position: relative;
+
+    &.default {
+        padding: 16px;
+        border-radius: 4px;
+        position: relative;     
+    }
+
+    ${media.notebook} {
+        margin: 0 16px 28px;
+
+    }
+    
     ${media.mobile} {
         margin: 0 16px 28px;
+
     }
+
     
 `
 
 class Info extends Component {
   render() {
     return (
-        
-<BoxContainer>
+
+<div style={{ gridArea:'top-invest'}}>
+<BoxContainer className='default'>
     <ProjectTitle title='En god forrentning'/>
         <Content>
                 <Grid>
@@ -74,6 +88,7 @@ class Info extends Component {
                 </Grid>
         </Content>
 </BoxContainer>
+</div> 
     )
   }
 }

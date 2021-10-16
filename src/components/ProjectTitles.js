@@ -6,6 +6,7 @@ import { media } from '../MediaQueries'
 
 
 export const CenteredContainer = styled.div`
+        grid-area: top-title;
         text-align: center;
         margin-bottom: 32px;
 
@@ -20,11 +21,11 @@ export const H1 = styled.h1`
         padding: 8px 0 ;
         margin: 0 auto ;
         max-width: 768px;
-        color: ${Colors.primary};
         font-size: 43.2px;
         font-weight: 700;
         line-height: 125%;
-        text-align: center;
+        color: ${Colors.primary};
+        word-break: break-word;
         
         ${media.mobile} {
           font-size: 36px;

@@ -4,6 +4,7 @@ import Circles from '../components/Circles.js'
 import Completo from '../components/Completo.js'
 
 export const BlockSlider = styled.div`
+grid-area: top-image;
 background: transparent;
 width: 100%;
 position: relative;

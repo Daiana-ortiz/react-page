@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { media } from '../MediaQueries'
 
 export const TextStyle = styled.h4`
+        grid-area: teaser-text;
         font-weight: 300;
         font-size: 16px;
         line-height: 150%;
