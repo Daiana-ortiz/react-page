@@ -8,7 +8,7 @@ export const TextStyle = styled.h4`
         font-size: 16px;
         line-height: 150%;
         color: #333;
-        margin: 25px auto;
+        margin: 0px auto;
         max-width: 870px;
         padding: 0 32px 16px;
         text-align: center;

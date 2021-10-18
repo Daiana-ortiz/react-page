@@ -8,7 +8,7 @@ flex-basis: 100%;
 margin: 0;
 box-sizing: border-box;
 text-align: center!important;
-height: 40px;
+height: 100px;
 
 `
 
