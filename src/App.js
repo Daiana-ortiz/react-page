@@ -6,6 +6,7 @@ import SliderProject from './components/SliderProject.js'
 import Info from './components/Info.js'
 import styled  from 'styled-components';
 import { media } from './MediaQueries.js';
+import Footer from './components/Footer'
 
 export const MainContainer= styled.div`
 padding: 32px 0;  
@@ -49,11 +50,14 @@ class App extends Component {
             <ProjectTitles title='1 liebhavervilla ved Odense'/>
             <SliderProject/>
             <Text/>
-            <Info/>
-              
+            <Info/> 
         </ProjectTitleContainer>
-      </MainContainer> 
+
+        <Footer/>
         
+      </MainContainer> 
+      
+      
     )
   }
 }

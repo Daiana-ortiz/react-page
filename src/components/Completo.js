@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { media } from '../MediaQueries'
 
 export const GreenRectangule = styled.div`
-        background-color: rgba(81,196,124,.85);
+        background-color: ${(props) => (props.isCompleted ? "rgba(238,202,18,.85)" : "red")};
         transform: rotate(-15deg) scale(1.25);
         display: inline-block;
         position: absolute;
@@ -28,14 +28,27 @@ export const GreenRectangule = styled.div`
             
         }
         `
+const state = {
+            isCompleted : true
+        }
 
+        if (state.isCompleted) {
+            state.isCompleted = 'Fuldtegnet'
+        } else {
+            state.isCompleted = 'Kommer snart'
+        }
+        
 class Completo extends Component {
     render() {
+
+
+        
+
         return (
-                <GreenRectangule>
-                    <span>{this.props.span}</span>
+                <GreenRectangule isCompleted={state.isCompleted} >
+                    <span>{state.isCompleted}</span>
                 </GreenRectangule>
-        )
+        ) 
     }
 }
 
